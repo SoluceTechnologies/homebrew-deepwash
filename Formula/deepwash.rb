@@ -1,17 +1,17 @@
 class Deepwash < Formula
   desc "A Command Line Interface to clean your machine (docker...)"
   homepage "https://github.com/SoluceTechnologies/deepwash"
-  version "1.2.1"
+  version "1.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/SoluceTechnologies/deepwash/releases/download/1.2.1/deepwash-1.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "ff198ff639be28258b79ed1b97fa4b93b406162bb0cd15a4c223c105aefd5266"
+      url "https://github.com/SoluceTechnologies/deepwash/releases/download/1.3.0/deepwash-1.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "77b152b5668a8a91fd47f036342a168e29899ddf0d90435036860a25355e9f14"
     end
     on_intel do
-      url "https://github.com/SoluceTechnologies/deepwash/releases/download/1.2.1/deepwash-1.2.1-x86_64-apple-darwin.tar.gz"
-      sha256 "8165e68af270f8b3eb56c2eb0c5366eba0326f0da48b4c2bb10965e3651fa200"
+      url "https://github.com/SoluceTechnologies/deepwash/releases/download/1.3.0/deepwash-1.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "583aa0a7e32fe014b2e456365b4b93931c4f6ec3610d87b14204d693baad489d"
     end
   end
 
